@@ -15,6 +15,6 @@
 
 ------------------------
 
-## Seção 6 - App EggTimer.
+## Seção 8 - App EggTimer.
 
 <img width="343" alt="Captura de Tela 2022-01-23 às 16 42 18" src="https://user-images.githubusercontent.com/70922620/150695297-aaaef95d-6085-409d-b9e0-239384333019.png">
