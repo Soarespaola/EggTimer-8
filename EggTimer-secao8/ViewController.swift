@@ -10,6 +10,11 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    override func viewDidLoad() {
+            super.viewDidLoad()
+        self.view.setGradient(colors: [.systemBlue,.cyan,.black])
+        }
+    
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var titleLabel: UILabel!
     let eggTimes = ["Soft": 3, "Medium": 4, "Hard": 7]

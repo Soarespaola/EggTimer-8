@@ -11,9 +11,10 @@
 		532957D8279DCFA800549283 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532957D7279DCFA800549283 /* SceneDelegate.swift */; };
 		532957DA279DCFA800549283 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532957D9279DCFA800549283 /* ViewController.swift */; };
 		532957E2279DCFAC00549283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532957E0279DCFAC00549283 /* LaunchScreen.storyboard */; };
-		532957EB279DD02700549283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532957E9279DD02700549283 /* Main.storyboard */; };
 		532957F0279DD05A00549283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532957EF279DD05900549283 /* Assets.xcassets */; };
 		532957F2279DD07800549283 /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 532957F1279DD07800549283 /* alarm_sound.mp3 */; };
+		532957F7279DD7F800549283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532957F5279DD7F800549283 /* Main.storyboard */; };
+		532957FB279DDA2E00549283 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532957FA279DDA2E00549283 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +24,10 @@
 		532957D9279DCFA800549283 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		532957E1279DCFAC00549283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		532957E3279DCFAC00549283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		532957EA279DD02700549283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/EggTimer-iOS13-master/EggTimer/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 		532957EF279DD05900549283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/EggTimer-iOS13-master/EggTimer/Assets.xcassets"; sourceTree = "<group>"; };
 		532957F1279DD07800549283 /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = alarm_sound.mp3; path = "../../../../Downloads/EggTimer-iOS13-master/EggTimer/alarm_sound.mp3"; sourceTree = "<group>"; };
+		532957F6279DD7F800549283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/EggTimer-iOS13-Completed-master/EggTimer/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		532957FA279DDA2E00549283 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,10 @@
 				532957D5279DCFA800549283 /* AppDelegate.swift */,
 				532957D7279DCFA800549283 /* SceneDelegate.swift */,
 				532957D9279DCFA800549283 /* ViewController.swift */,
-				532957E9279DD02700549283 /* Main.storyboard */,
+				532957FA279DDA2E00549283 /* UIView+Extension.swift */,
 				532957F1279DD07800549283 /* alarm_sound.mp3 */,
 				532957EF279DD05900549283 /* Assets.xcassets */,
+				532957F5279DD7F800549283 /* Main.storyboard */,
 				532957E0279DCFAC00549283 /* LaunchScreen.storyboard */,
 				532957E3279DCFAC00549283 /* Info.plist */,
 			);
@@ -129,9 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				532957E2279DCFAC00549283 /* LaunchScreen.storyboard in Resources */,
+				532957F7279DD7F800549283 /* Main.storyboard in Resources */,
 				532957F0279DD05A00549283 /* Assets.xcassets in Resources */,
 				532957F2279DD07800549283 /* alarm_sound.mp3 in Resources */,
-				532957EB279DD02700549283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +147,7 @@
 			files = (
 				532957DA279DCFA800549283 /* ViewController.swift in Sources */,
 				532957D6279DCFA800549283 /* AppDelegate.swift in Sources */,
+				532957FB279DDA2E00549283 /* UIView+Extension.swift in Sources */,
 				532957D8279DCFA800549283 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,10 +163,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		532957E9279DD02700549283 /* Main.storyboard */ = {
+		532957F5279DD7F800549283 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				532957EA279DD02700549283 /* Base */,
+				532957F6279DD7F800549283 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
